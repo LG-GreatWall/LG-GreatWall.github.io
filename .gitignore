@@ -1,13 +1,15 @@
-.DS_Store
-node_modules/
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+npmdebug.log*
+yarndebug.log*
+yarnerror.log*
 test/unit/coverage
 test/e2e/reports
-selenium-debug.log
-
+seleniumdebug.log
+/.idea/*
+/node_modules/*
+/build/vendor-manifest.json
+/bower_components/*
+/dll/*
+package-lock.json
 # Editor directories and files
 .idea
 *.suo
